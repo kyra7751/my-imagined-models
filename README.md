@@ -5,14 +5,14 @@
 
 This repository documents an original, exploratory idea called **Vortex Theory**. It attempts to unify Newtonian gravity, general relativity, and quantum‑mechanical stability through simple geometric patterns (`x⁻²` and `x²`).  
 
-> ⚠️ **Disclaimer**  
+> **Disclaimer**  
 > This is a **personal, early‑stage theoretical proposal** written by someone who is learning mathematics from scratch.  
 > The theory has **not been peer‑reviewed or experimentally validated**. It is shared as an open‑ended thinking exercise, not as established physics.  
 > All equations and simulations are **speculative** and may contain errors or misconceptions.
 
 ---
 
-## 📁 Repository Contents
+## Repository Contents
 
 | File | Description |
 |------|-------------|
@@ -40,7 +40,7 @@ This repository documents an original, exploratory idea called **Vortex Theory**
 
 ---
 
-## 📖 Core Ideas in Brief
+## Core Ideas in Brief
 
 1. **Basic patterns**  
    - `x⁻²` → inward pressure (gravity, electric force)  
@@ -62,7 +62,7 @@ This repository documents an original, exploratory idea called **Vortex Theory**
 
 ---
 
-## 🧪 How to Use This Archive
+## How to Use This Archive
 
 - **Read `INTRODUCTION.md` first** – it explains the physical motivation, defines every symbol, and states clearly that the theory is **untested and speculative**.  
 - **Run the Python scripts** to visualise the mathematical behaviour of the proposed equations (not as physical predictions, but as geometric explorations).  
@@ -76,8 +76,6 @@ This work is shared under the **MIT License** – you are free to use, modify, a
 No claim of validity or correctness is made.
 
 ---
-
-## 🙏 Author’s Note
 
 I am a beginner learning mathematics on my own. These documents and codes are part of my learning process.  
 If you find errors or have suggestions, please feel free to open an issue – I welcome constructive feedback.
