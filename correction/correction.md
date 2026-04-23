@@ -9,8 +9,8 @@ The entire theory pivots on a single substitution:
 
 | Classical expression | Regularized expression |
 |----------------------|------------------------|
-| $ \displaystyle \frac{1}{r} $ (in potential) | $ \displaystyle \frac{1}{\sqrt{r^{2}+L_{p}^{2}}} $ |
-| $ \displaystyle \frac{1}{r^{2}} $ (in force) | $ \displaystyle \frac{r}{(r^{2}+L_{p}^{2})^{3/2}} $ |
+| $\displaystyle \frac{1}{r}$ (in potential) | $\displaystyle \frac{1}{\sqrt{r^{2}+L_{p}^{2}}}$ |
+| $\displaystyle \frac{1}{r^{2}}$ (in force) | $\displaystyle \frac{r}{(r^{2}+L_{p}^{2})^{3/2}}$ |
 
 where $L_p = \sqrt{\hbar G / c^{3}} \approx 1.616\times10^{-35}\,\text{m}$ is the Planck length.  
 The modification prevents the denominator from ever reaching zero – thus **all physical quantities remain finite at $r=0$**.
@@ -18,15 +18,11 @@ The modification prevents the denominator from ever reaching zero – thus **all
 ### 1.1 Gravitational Potential – Before and After
 
 **Newtonian (classical):**  
-\[
-U_{\text{Newton}}(r) = -\frac{GMm}{r}
-\]
+$U_{\text{Newton}}(r) = -\frac{GMm}{r}$
 - Diverges to $-\infty$ as $r\to 0$ → singularity.
 
 **Regularized**  
-\[
-\boxed{U(r) = -\frac{GMm}{\sqrt{r^{2}+L_{p}^{2}}}}
-\]
+$\boxed{U(r) = -\frac{GMm}{\sqrt{r^{2}+L_{p}^{2}}}}$
 - At $r=0$, $U(0) = -\frac{GMm}{L_{p}}$ (finite).
 
 **What changed:** A tiny constant $L_p^{2}$ is added under the square root. For macroscopic distances $r\gg L_p$, the two potentials are indistinguishable. At the Planck scale the behaviour is completely different – no divergence.
@@ -36,14 +32,10 @@ U_{\text{Newton}}(r) = -\frac{GMm}{r}
 ### 1.2 Force Law – Before and After
 
 **Newtonian force:**  
-\[
-F_{\text{Newton}}(r) = -\frac{dU_{\text{Newton}}}{dr} = -\frac{GMm}{r^{2}}
-\]
+$F_{\text{Newton}}(r) = -\frac{dU_{\text{Newton}}}{dr} = -\frac{GMm}{r^{2}}$
 
 **Regularized force:**  
-\[
-\boxed{F(r) = -\frac{GMm\,r}{(r^{2}+L_{p}^{2})^{3/2}}}
-\]
+$\boxed{F(r) = -\frac{GMm\,r}{(r^{2}+L_{p}^{2})^{3/2}}}$
 
 - **At $r=0$:** $F(0)=0$ (force vanishes, no infinite tug).  
 - **For $r \ll L_{p}$:** $F(r) \approx -\frac{GMm}{L_{p}^{3}}\,r$ — a linear, spring‑like restoring force (like $F=-kx$).  
@@ -57,14 +49,14 @@ The core regularized potential splits naturally into scale‑dependent approxima
 
 ### 2.1 Large Distance Limit ($r \gg L_{p}$) – Macroscopic/Newtonian Regime
 
-\[
+$$
 \begin{aligned}
 \sqrt{r^{2}+L_{p}^{2}} &= r\sqrt{1+\frac{L_{p}^{2}}{r^{2}}}
-= r\left(1+\frac{L_{p}^{2}}{2r^{2}} - \frac{L_{p}^{4}}{8r^{4}} + \mathcal{O}\!\left(\frac{L_{p}^{6}}{r^{6}}\right)\right) \\[4pt]
+= r\left(1+\frac{L_{p}^{2}}{2r^{2}} - \frac{L_{p}^{4}}{8r^{4}} + \mathcal{O}\!\left(\frac{L_{p}^{6}}{r^{6}}\right)\right) \[4pt]
 \Rightarrow\; U(r) &= -\frac{GMm}{r}\left(1 - \frac{L_{p}^{2}}{2r^{2}} + \cdots\right) \\
-&\approx \underbrace{-\frac{GMm}{r}}_{\text{Newton}} + \underbrace{\frac{GMm L_{p}^{2}}{2r^{3}}}_{\text{1st quantum correction}}.
+&\approx \underbrace{-\frac{GMm}{r}}_{\text{Newton}} + \underbrace{\frac{GMm L_{p}^{2}}{2r^{3}}}_{\text{1st quantum correction}} .
 \end{aligned}
-\]
+$$
 
 - **Newton’s law** is recovered from the first term.  
 - The correction $\propto 1/r^{3}$ is utterly negligible for planetary or laboratory scales because $L_p^{2} \sim 10^{-70}\,\text{m}^{2}$.
@@ -77,9 +69,9 @@ The core regularized potential splits naturally into scale‑dependent approxima
 
 When $r$ is comparable to $L_{p}$, the expansion above breaks down; the full expression must be used.
 
-\[
+$$
 U(r) \approx -\frac{GMm}{L_{p}} \left[1 - \frac{1}{2}\left(\frac{r}{L_{p}}\right)^{2} + \cdots\right] \quad(\text{for } r \ll L_{p})
-\]
+$$
 
 - At $r=0$, $U(0) = -GMm/L_{p}$ is the **minimum potential depth** (no infinite well).  
 - The force becomes $F(r) \approx -\frac{GMm}{L_{p}^{3}}\,r$, i.e. a harmonic oscillator.
@@ -104,16 +96,11 @@ This behaviour explicitly **removes the central singularity** that plagues class
 
 The complete Lagrangian $\mathcal{L}$ (used for orbits and simulations) is:
 
-\[
-\boxed{
-\begin{aligned}
-\mathcal{L} &= \underbrace{\frac12 m v^{2}}_{\text{Newtonian kinetic}} 
-+ \underbrace{\frac{GMm}{\sqrt{r^{2}+L_{p}^{2}}}}_{\text{Regularized potential }(-U)} \\
-&\quad + \underbrace{\frac{3GMm}{2c^{2}r} v^{2} + \frac{m}{8c^{2}} v^{4} - \frac{G^{2}M^{2}m}{2c^{2}r^{2}}}_{\text{Post‑Newtonian terms (from GR expansion of Schwarzschild)}} \\
-&\quad + \underbrace{\frac16 m c^{2} \Lambda r^{2}}_{\text{Cosmological constant (repulsive)}} \\
-&\quad + \underbrace{\frac{m c^{2} L_{p}^{2}}{r^{2}+L_{p}^{2}} e^{-r/L_{p}}}_{\text{Exponential quantum correction}} .
-\end{aligned}}
-\]
+$$\mathcal{L} = \underbrace{\frac{1}{2} m v^{2}}_{\text{Newtonian kinetic}} + \underbrace{\frac{GMm}{\sqrt{r^{2}+L_{p}^{2}}}}_{\text{Regularized potential }(-U)}$$
+
+$$\quad + \underbrace{\frac{3GMm}{2c^{2}r} v^{2} + \frac{m}{8c^{2}} v^{4} - \frac{G^{2}M^{2}m}{2c^{2}r^{2}}}_{\text{Post‑Newtonian terms (from GR expansion of Schwarzschild)}}$$
+
+$$\quad + \underbrace{\frac{1}{6} m c^{2} \Lambda r^{2}}_{\text{Cosmological constant (repulsive)}}+ \underbrace{\frac{m c^{2} L_{p}^{2}}{r^{2}+L_{p}^{2}} e^{-r/L_{p}}}_{\text{Exponential quantum correction}}$$
 
 ### 4.1 Origin of the Terms
 
@@ -166,9 +153,3 @@ Because $L_{p}\sim 10^{-35}\,\text{m}$, all quantum corrections are immeasurably
 The full Lagrangian (Section 4) is the **single unified formula** for all scales, but its individual terms dominate in different regimes.
 
 ---
-
-## 8. Concluding Remarks
-
-The Universal Gravity Theory elegantly addresses the singularity problem with minimal modification. The core regularized potential is mathematically simple, and its expansions show a seamless transition to classical physics. However, from a rigorous field‑theoretic viewpoint, the theory must be elevated from an effective particle Lagrangian to a covariant action with a legitimate stress‑energy source. The “correct” side is the removal of infinities and consistency with observation; the “wrong” side is the current ad‑hoc nature of certain terms and the lack of a derivation from first principles.
-
-Transparency means acknowledging both. The road ahead involves deriving the regularized metric from a modified Einstein–Hilbert action, finding the necessary matter fields, and making contact with quantum gravity principles. The present framework provides a rich phenomenology for that journey.
