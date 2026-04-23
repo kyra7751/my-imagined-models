@@ -1,3 +1,4 @@
+```markdown
 # VORTEX THEORY: FOUR EQUATIONS, ONE VISION
 
 ## Complete Explanation, Example Calculations, and Verification with Proven Physics
@@ -9,7 +10,7 @@ Vortex Theory is based on two geometric patterns: inward pressure ($x^{-2}$) and
 ## 1. CORE VORTEX FORMULA
 
 $$
-\boxed{ V_x = \frac{m c^4 L_p}{r^2} } \qquad [\text{Vx}]
+\boxed{V_x = \frac{m c^4 L_p}{r^2}} \qquad [\text{Vx}]
 $$
 
 - $m$ : mass  
@@ -17,7 +18,7 @@ $$
 - $L_p = \sqrt{\hbar G / c^3}$ : Planck length  
 - $r$ : distance  
 
-The unit Vx = $\text{M L}^3 \text{T}^{-4}$ represents the rate of spacetime pressure. The Planck length prevents divergence as $r \to 0$.
+The unit $\text{Vx} = \text{M L}^3 \text{T}^{-4}$ represents the rate of spacetime pressure. The Planck length prevents divergence as $r \to 0$.
 
 **Example (electron at $r = L_p$):**  
 $m_e = 9.1\times10^{-31}\text{ kg}$, $c = 3\times10^8\text{ m/s}$, $L_p = 1.6\times10^{-35}\text{ m}$  
@@ -30,7 +31,7 @@ $$
 ## 2. DUALITY BALANCE FORMULA
 
 $$
-\boxed{ V_{\text{total}} = m c^2 \left( \frac{L_p^2}{r^2} + \frac{r^2}{L_p^2} \right) }
+\boxed{V_{\text{total}} = m c^2 \left( \frac{L_p^2}{r^2} + \frac{r^2}{L_p^2} \right)}
 $$
 
 - First term: Vortex In ($1/r^2$), dominates at $r \ll L_p$ → repulsion  
@@ -75,7 +76,7 @@ Over 100 years (415 orbits): $43''$, matching observation. Vortex/$\Lambda$ corr
 ## 4. VORTEX METRIC (REGULAR BLACK HOLE)
 
 $$
-\boxed{ f(r) = 1 - \frac{2GM}{c^2 r} + \frac{\gamma L_p^2}{r^2} }
+\boxed{f(r) = 1 - \frac{2GM}{c^2 r} + \frac{\gamma L_p^2}{r^2}}
 $$
 $$
 ds^2 = -f(r) c^2 dt^2 + \frac{dr^2}{f(r)} + r^2 d\Omega^2
@@ -111,7 +112,7 @@ Below are derived forms and variations. They are not independent laws but exampl
 3. $V_3 = m c^2 \frac{r^2}{L_p^2}$  
 4. $V_4 = m c^2 \left(\frac{L_p^2}{r^2} + \frac{r^2}{L_p^2}\right)$  
 5. $V_5 = m c^2 \left(\frac{L_p^2}{r^2} + \frac{r^2}{L_p^2}\right) + \frac{GMm}{r}$  
-...  
+
 *(Full list of 100 formulas is available in the original document; they follow the same pattern.)*
 
 ---
