@@ -3,10 +3,6 @@
 **Author:** Kyra (self‑taught learner)  
 **Status:** Early personal exploration, **not validated**
 
-> **Note on formulas**  
-> This document uses LaTeX notation (e.g. `$E=mc^2$`). For best viewing, use a Markdown renderer that supports MathJax (e.g. GitHub, GitLab, or Jupyter).  
-> You can also convert this file to PDF using `pandoc` or Typora.
-
 This document explains the geometric ideas, the proposed equations, and the meaning of all symbols.  
 The theory is **not claimed to be correct** – it is a tentative attempt to connect simple algebraic patterns with fundamental physics.
 
