@@ -298,7 +298,7 @@ The surface gravity $\kappa = \frac{1}{2} f'(r_h)$. For the vortex metric with $
 | Solar system | Mercury precession | $43''$/century (GR limit) | Matches observation |
 | Solar system | Light deflection | $1.75''$ (GR limit) | Matches observation |
 | Solar system | Vortex/$\Lambda$ corrections | $<10^{-10}$ arcsec | Undetectable |
-| Cosmological | Dark energy force | $a \sim 3.3\times10^{-11}$ m/s² | Consistent with $\Lambda$CDM |
+| Cosmological | Dark energy force | $a \sim 3.3\times10^{-11}$ m/s² | Consistent with $\Lambda$ CDM |
 | Black hole | Horizon shift (solar mass) | $\Delta r \sim 10^{-73}$ m | Negligible |
 | Black hole | Planck-mass horizon | No horizon for $\gamma=1$ | Predicts regular object |
 
