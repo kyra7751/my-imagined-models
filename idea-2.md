@@ -21,9 +21,7 @@ The unit $\text{Vx} = \text{M L}^3 \text{T}^{-4}$ represents the rate of spaceti
 
 **Example (electron at $r = L_p$):**  
 $m_e = 9.1\times10^{-31}\text{ kg}$, $c = 3\times10^8\text{ m/s}$, $L_p = 1.6\times10^{-35}\text{ m}$  
-$$
-V_x = \frac{(9.1\times10^{-31}) (3\times10^8)^4 (1.6\times10^{-35})}{(1.6\times10^{-35})^2} \approx 4.6\times10^{38}\text{ Vx}
-$$
+$$V_x = \frac{(9.1\times10^{-31}) (3\times10^8)^4 (1.6\times10^{-35})}{(1.6\times10^{-35})^2} \approx 4.6\times10^{38}\text{ Vx}$$
 
 ---
 
@@ -39,9 +37,7 @@ $$
 - Minimum at $r = L_p$: $V_{\min} = 2 m c^2$
 
 **Force:**  
-$$
-F = -\frac{dV}{dr} = 2 m c^2 \left( \frac{L_p^2}{r^3} - \frac{r}{L_p^2} \right)
-$$
+$$F = -\frac{dV}{dr} = 2 m c^2 \left( \frac{L_p^2}{r^3} - \frac{r}{L_p^2} \right)$$
 At $r = L_p$, $F = 0$. Small oscillations give frequency $\omega = 2c / L_p$ (Planck harmonic oscillator).
 
 ---
@@ -65,9 +61,7 @@ $$
 - Cosmological constant $\Lambda$ (dark energy)
 
 **Mercury’s perihelion precession (GR limit):**  
-$$
-\Delta \phi = \frac{6\pi G M}{c^2 a(1-e^2)} \approx 5.0\times10^{-7}\text{ rad/orbit}
-$$
+$$\Delta \phi = \frac{6\pi G M}{c^2 a(1-e^2)} \approx 5.0\times10^{-7}\text{ rad/orbit}$$
 Over 100 years (415 orbits): $43''$, matching observation. Vortex/$\Lambda$ corrections $<10^{-10}$ arcsec.
 
 ---
