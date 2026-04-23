@@ -21,6 +21,8 @@ This repository documents an original, exploratory idea called **Vortex Theory**
 | `idea-1.md` … `idea-4.md` | Early manuscript versions (historical record) |
 | `main-theory.md` | Alternative regularization form $U(r) = -GMm/\sqrt{r^2+L_p^2}$ |
 | `testing-1.py` … `testing-7.py` | Python scripts for visualisation and simulation (see below) |
+| `correction` | For correction|
+
 
 ### Python scripts (demos)
 
