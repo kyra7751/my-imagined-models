@@ -3,10 +3,6 @@
 **Author:** Kyra (self‑taught beginner in mathematics)  
 **Repository archive date:** 2026  
 
-> **Note on formulas**  
-> This document uses LaTeX notation (e.g. `$E=mc^2$`). For best viewing, use a Markdown renderer that supports MathJax (e.g. GitHub, GitLab, or Jupyter).  
-> You can also convert this file to PDF using `pandoc` or Typora.
-
 This repository documents an original, exploratory idea called **Vortex Theory**. It attempts to unify Newtonian gravity, general relativity, and quantum‑mechanical stability through simple geometric patterns ($x^{-2}$ and $x^{2}$).  
 
 > **Disclaimer**  
