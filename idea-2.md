@@ -1,4 +1,3 @@
-```markdown
 # VORTEX THEORY: FOUR EQUATIONS, ONE VISION
 
 ## Complete Explanation, Example Calculations, and Verification with Proven Physics
@@ -143,4 +142,3 @@ Constants: $m_e = 9.109\times10^{-31}\text{ kg}$, $c = 3.0\times10^8\text{ m/s}$
 ---
 
 *These equations offer a compact geometric language that connects classical gravity, general relativity, and quantum‑scale effects without singularities.*
-```
