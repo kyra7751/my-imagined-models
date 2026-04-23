@@ -3,7 +3,11 @@
 **Author:** Kyra (self‑taught beginner in mathematics)  
 **Repository archive date:** 2026  
 
-This repository documents an original, exploratory idea called **Vortex Theory**. It attempts to unify Newtonian gravity, general relativity, and quantum‑mechanical stability through simple geometric patterns (`x⁻²` and `x²`).  
+> **Note on formulas**  
+> This document uses LaTeX notation (e.g. `$E=mc^2$`). For best viewing, use a Markdown renderer that supports MathJax (e.g. GitHub, GitLab, or Jupyter).  
+> You can also convert this file to PDF using `pandoc` or Typora.
+
+This repository documents an original, exploratory idea called **Vortex Theory**. It attempts to unify Newtonian gravity, general relativity, and quantum‑mechanical stability through simple geometric patterns ($x^{-2}$ and $x^{2}$).  
 
 > **Disclaimer**  
 > This is a **personal, early‑stage theoretical proposal** written by someone who is learning mathematics from scratch.  
@@ -19,20 +23,20 @@ This repository documents an original, exploratory idea called **Vortex Theory**
 | `README.md` | This file |
 | `INTRODUCTION.md` | Full theoretical introduction (English) with symbol definitions |
 | `idea-1.md` … `idea-4.md` | Early manuscript versions (historical record) |
-| `main-theory.md` | Alternative regularization form `U(r) = -GMm/√(r²+Lp²)` |
+| `main-theory.md` | Alternative regularization form $U(r) = -GMm/\sqrt{r^2+L_p^2}$ |
 | `testing-1.py` … `testing-7.py` | Python scripts for visualisation and simulation (see below) |
 
 ### Python scripts (demos)
 
 | Script | What it shows |
 |--------|----------------|
-| `testing-1.py` | Duality potential `V_total = m c²(Lp²/r² + r²/Lp²)` and force |
-| `testing-2.py` | Vortex metric `f(r) = 1 - 2GM/(c²r) + γ Lp²/r²` |
+| `testing-1.py` | Duality potential $V_{\text{total}} = m c^2(L_p^2/r^2 + r^2/L_p^2)$ and force |
+| `testing-2.py` | Vortex metric $f(r) = 1 - 2GM/(c^2 r) + \gamma L_p^2/r^2$ |
 | `testing-3.py` | Time animation of a stable orbit (x, y, z, t) |
-| `testing-4.py` | 2D + 3D interactive plot of core vortex formula `V_x = m c⁴ Lp / r²` |
+| `testing-4.py` | 2D + 3D interactive plot of core vortex formula $V_x = m c^4 L_p / r^2$ |
 | `testing-5.py` | Spacetime curvature + nuclear chain reaction analogy |
 | `testing-6.py` | Full 3D orbit with 5‑panel energy decomposition |
-| `testing-7.py` | N‑body simulation (50 particles) with Newton, vortex repulsion and Λ expansion |
+| `testing-7.py` | N‑body simulation (50 particles) with Newton, vortex repulsion and $\Lambda$ expansion |
 
 > To run the scripts, install `numpy`, `matplotlib`, `scipy`. Example:  
 > `pip install numpy matplotlib scipy`  
@@ -40,25 +44,25 @@ This repository documents an original, exploratory idea called **Vortex Theory**
 
 ---
 
-## Core Ideas in Brief
+## 📖 Core Ideas in Brief
 
 1. **Basic patterns**  
-   - `x⁻²` → inward pressure (gravity, electric force)  
-   - `x²` → outward balancing vibration (quantum stability, dark energy)  
-   - `sin(x)` → oscillation that prevents collapse
+   - $x^{-2}$ → inward pressure (gravity, electric force)  
+   - $x^{2}$ → outward balancing vibration (quantum stability, dark energy)  
+   - $\sin(x)$ → oscillation that prevents collapse
 
 2. **Four main equations** (proposed)  
-   - **Core vortex formula** `V_x = m c⁴ Lp / r²` (spacetime pressure rate)  
-   - **Duality balance** `V_total = m c² (Lp²/r² + r²/Lp²)` (symmetry under `r ↔ Lp²/r`)  
+   - **Core vortex formula** $V_x = m c^4 L_p / r^2$ (spacetime pressure rate)  
+   - **Duality balance** $V_{\text{total}} = m c^2 (L_p^2/r^2 + r^2/L_p^2)$ (symmetry under $r \leftrightarrow L_p^2/r$)  
    - **Complete Lagrangian** – includes Newton, post‑Newtonian, Planck‑scale cutoff, cosmological constant  
-   - **Vortex metric** `f(r) = 1 - 2GM/(c²r) + γ Lp²/r²` (regular black hole, no singularity)
+   - **Vortex metric** $f(r) = 1 - \frac{2GM}{c^2 r} + \frac{\gamma L_p^2}{r^2}$ (regular black hole, no singularity)
 
 3. **Key symbols** (see `INTRODUCTION.md` for full list)  
-   - `c` – speed of light  
-   - `G` – gravitational constant  
-   - `Lp = √(ħG/c³)` – Planck length  
-   - `Λ` – cosmological constant  
-   - `γ` – dimensionless vortex parameter (~1)
+   - $c$ – speed of light  
+   - $G$ – gravitational constant  
+   - $L_p = \sqrt{\hbar G/c^3}$ – Planck length  
+   - $\Lambda$ – cosmological constant  
+   - $\gamma$ – dimensionless vortex parameter (≈1)
 
 ---
 
@@ -70,12 +74,14 @@ This repository documents an original, exploratory idea called **Vortex Theory**
 
 ---
 
-## 📜 License
+## License
 
 This work is shared under the **MIT License** – you are free to use, modify, and distribute the code and text, provided you include the original disclaimer and attribution.  
 No claim of validity or correctness is made.
 
 ---
+
+## Author’s Note
 
 I am a beginner learning mathematics on my own. These documents and codes are part of my learning process.  
 If you find errors or have suggestions, please feel free to open an issue – I welcome constructive feedback.
