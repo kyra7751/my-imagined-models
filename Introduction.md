@@ -3,7 +3,7 @@
 **Author:** Kyra (self‑taught learner)  
 **Status:** Early personal exploration, **not validated**
 
-> **📐 Note on formulas**  
+> **Note on formulas**  
 > This document uses LaTeX notation (e.g. `$E=mc^2$`). For best viewing, use a Markdown renderer that supports MathJax (e.g. GitHub, GitLab, or Jupyter).  
 > You can also convert this file to PDF using `pandoc` or Typora.
 
