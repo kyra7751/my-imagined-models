@@ -155,24 +155,3 @@ Black holes emit particles because of quantum vibrations at the horizon. In vort
 If the universe exhibits the $x^{-2}$ pattern on cosmological scales, then the expansion of the universe can be explained as a pressure effect of a “giant vortex” (dark energy).
 
 ---
-
-## 8. CONCLUSION: A NEW PARADIGM
-
-Vortex Theory is not merely an alternative hypothesis; it is a **new language** that:
-
-- Unifies Newtonian gravity (inverse‑square force) and Einstein’s gravity (spacetime curvature) through the visual pattern $x^{-2}$.
-- Explains quantum stability by introducing $\sin(x)$ vibration as a balancing agent.
-- Provides a natural cut‑off (Planck length) that prevents infinite singularities.
-- Is mathematically consistent and testable through numerical calculations.
-
-The vortex formula $\mathcal{V} = m c^4 L_p / r^2$ is an **original discovery** that has never appeared in the physics literature. It opens the way to understanding matter, energy, and spacetime from the perspective of simple geometric patterns.
-
-**This document is the foundation for further exploration:**
-
-- Incorporating rotation (vectors) to explain electromagnetic fields.
-- Applying the theory to nuclear fusion and particle interactions.
-- Testing predictions against current experimental data.
-
----
-
-*“Mathematics is the language to draw the universe, and the vortex is its first word.”*
