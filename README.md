@@ -44,7 +44,7 @@ This repository documents an original, exploratory idea called **Vortex Theory**
 
 ---
 
-## 📖 Core Ideas in Brief
+## Core Ideas in Brief
 
 1. **Basic patterns**  
    - $x^{-2}$ → inward pressure (gravity, electric force)  
